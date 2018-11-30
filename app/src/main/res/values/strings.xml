@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">football</string>
+
+
+    <!-- 闪屏页-->
+    <string name="str_splash_alert">足球连接黑白</string>
+
+
+    <!--登录页面-->
+    <string name="str_login_name_alert">用户名</string>
+    <string name="str_login_pass_alert">密码</string>
+    <string name="str_login_alert">登录</string>
+    <string name="str_login_name_not_null">用户名不能为空</string>
+    <string name="str_login_pass_not_null">密码不能为空</string>
+
+    <!--主页面-->
+    <string name="str_main_news_alert">首页</string>
+    <string name="str_main_match_alert">比赛</string>
+    <string name="str_main_video_alert">视频</string>
+    <string name="str_main_mine_alert">我的</string>
+</resources>

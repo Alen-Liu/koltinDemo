@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2b2b2b">
+
+    <FrameLayout
+        android:id="@+id/fl_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/px_60"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_main_news_tab"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/px_60"
+        android:gravity="center"
+        android:text="@string/str_main_news_alert"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_main_match_tab"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_main_match_tab"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/px_60"
+        android:gravity="center"
+        android:text="@string/str_main_match_alert"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_main_video_tab"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_news_tab" />
+
+    <TextView
+        android:id="@+id/tv_main_video_tab"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/px_60"
+        android:gravity="center"
+        android:text="@string/str_main_video_alert"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_main_mine_tab"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_match_tab" />
+
+    <TextView
+        android:id="@+id/tv_main_mine_tab"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/px_60"
+        android:gravity="center"
+        android:text="@string/str_main_mine_alert"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_video_tab" />
+</android.support.constraint.ConstraintLayout>
